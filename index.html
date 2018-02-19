@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Better Indicators</title>
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+  <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/yeti/bootstrap.min.css'></link>
+</head>
+<body>
+  <div class='container'>
+    <div class='main-title'>
+      <h1>Better Indicators</h1>
+      <h4>A better way to see labor market performance</h4>
+    </div>
+    <div class='select-menu'>
+      <div class="form-group">
+        <select class="custom-select">
+          <option selected="">Select your indicator</option>
+          <option value="LNS12300060">LNS12300060</option>
+          <option value="LNS12032194">LNS12032194</option>
+          <option value="CES0500000003">CES0500000003</option>
+        </select>
+      </div>
+    </div>
+    <div id='chartContainer'></div>
+  </div>
+  <script type="text/javascript" src='index.js'></script>
+</body>
+</html>
